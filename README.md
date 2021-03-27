@@ -20,8 +20,7 @@ A very tiny library to pluralize words!
 
 - 📦 [Installation](#installation)
 - ℹ️ [Usage](#usage)
-- 💡 [Examples](#examples)
-- 🛑 [Should you migrate class components to hooks?](#before-you-use)
+- 💡 [Examples](https://pluralize.netlify.app/)
 
 ## Motivation
 
