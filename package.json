@@ -22,14 +22,14 @@
   "scripts": {
     "start": "parcel example/index.html",
     "build": "rm -rf lib/ && microbundle",
+    "build:example": "parcel build example/index.html",
     "prepare": "yarn build"
   },
   "dependencies": {},
   "devDependencies": {
-    "nodemon": "2.0.7",
     "typescript": "4.2.3",
     "microbundle": "0.13.0",
-    "parcel": "2.0.0-beta.2"
+    "parcel-bundler": "1.12.5"
   },
   "keywords": []
 }
