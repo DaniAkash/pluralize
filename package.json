@@ -1,6 +1,6 @@
 {
   "name": "@daniakash/pluralize",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Tiny library to pluralize any word",
   "files": [
     "src",
@@ -12,6 +12,7 @@
   ],
   "author": "DaniAkash <s.daniakash@gmail.com> (https://github.com/DaniAkash)",
   "repository": "DaniAkash/pluralizer",
+  "homepage": "https://pluralize.netlify.app/",
   "license": "MIT",
   "source": "src/index.ts",
   "main": "lib/index.js",
