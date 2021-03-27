@@ -32,13 +32,13 @@ const renderPluralStrings = () => {
 renderCount();
 renderPluralStrings();
 
-document.querySelector("#add").addEventListener("click", function () {
+document.querySelector("#add")?.addEventListener("click", function () {
   count++;
   renderCount();
   renderPluralStrings();
 });
 
-document.querySelector("#sub").addEventListener("click", function () {
+document.querySelector("#sub")?.addEventListener("click", function () {
   count--;
   renderCount();
   renderPluralStrings();
