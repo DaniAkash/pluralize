@@ -1,0 +1,33 @@
+{
+  "name": "pluralizer",
+  "version": "0.0.1",
+  "description": "Tiny library to pluralize any word",
+  "files": [
+    "src",
+    "lib",
+    "!**/example",
+    "!**/__tests__",
+    "!**/__fixtures__",
+    "!**/__mocks__"
+  ],
+  "author": "DaniAkash <s.daniakash@gmail.com> (https://github.com/DaniAkash)",
+  "source": "src/index.ts",
+  "main": "lib/index.js",
+  "esmodule": "lib/index.modern.js",
+  "module": "lib/index.m.js",
+  "umd:main": "lib/index.umd.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "start": "parcel example/index.html",
+    "build": "rm -rf lib/ && microbundle",
+    "prepare": "yarn build"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "nodemon": "2.0.7",
+    "typescript": "4.2.3",
+    "microbundle": "0.13.0",
+    "parcel": "2.0.0-beta.2"
+  },
+  "keywords": []
+}

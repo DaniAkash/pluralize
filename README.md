@@ -1,2 +1,0 @@
-# pluralizer
-Created with CodeSandbox
